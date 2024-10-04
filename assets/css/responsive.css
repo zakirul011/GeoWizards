@@ -1,0 +1,99 @@
+/*==========> XS + SM : < 768px (MOBILE) ==========*/
+@media (max-width: 767.98px) {
+  /* GLOBAL */
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  body {
+    font-size: 14px;
+  }
+  /* GLOBAL// */
+
+  /* HEADER AREA */
+  .logo img {
+    max-width: 80px;
+  }
+  /* HEADER AREA// */
+}
+
+/*==========> XS + SM + MD : < 991px ==========*/
+@media (max-width: 991.98px) {
+}
+
+/*========== MD + LG + XL : 768px TO < 1400px (MIDDLE) ==========*/
+@media (min-width: 768px) and (max-width: 1399.98px) {
+  /* GLOBAL */
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  body {
+    font-size: 15px;
+  }
+  /* GLOBAL// */
+}
+
+/*==========> MD : 768px TO < 991px ==========*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* GLOBAL */
+  .container {
+    max-width: 750px;
+  }
+  /* GLOBAL// */
+}
+
+/*==========> LG : 992px TO < 1200px. ==========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* GLOBAL */
+  .container {
+    max-width: 920px;
+  }
+  /* GLOBAL// */
+}
+
+/*==========> XL : 1200px TO < 1400px ==========*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* GLOBAL */
+  .container {
+    max-width: 1120px;
+  }
+  /* GLOBAL// */
+}
+
+/*==========> SM : 576px TO < 768px ==========*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* GLOBAL */
+  .container {
+    max-width: 350px;
+  }
+  /* GLOBAL// */
+}
